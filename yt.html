@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="yt.css" type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <link rel="stylesheet" href="sidebar.css" type="text/css">
+    <link rel="stylesheet" href="recommendation.css" type="text/css">
+    <link rel="icon" href="images/icons/youtube_main_logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+         
+
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="images/icons/search.svg">
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="images/icons/voice-search-icon.svg">
+            </button>
+            
+
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="images/icons/upload.svg">
+            <img class="notifications-icon" src="images/icons/notifications.svg">
+            <img class="current-user-picture" src="images/icons/channelpic.jpg">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="images/icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 30px; height: 30px;"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg>
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/icons/library.svg">
+            <div>Library</div>
+        </div>
+        <div class="sidebar-link">
+            <svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 30px; height: 30px;"><path d="M17 18v1H6v-1h11zm-.5-6.6-.7-.7-3.8 3.7V4h-1v10.4l-3.8-3.8-.7.7 5 5 5-4.9z"></path></svg>
+            <div>Downloads</div>
+        </div>
+    </div>
+
+    <div class="recommendation">
+        <div class="recommendation-style">All</div>
+        <div class="recommendation-style">Mixes</div>
+        <div class="recommendation-style">Music</div>
+        <div class="recommendation-style">Action Thrillers</div>
+        <div class="recommendation-style">Stories</div>
+        <div class="recommendation-style">Java</div>
+        <div class="recommendation-style">Lectures</div>
+        <div class="recommendation-style">Animations</div>
+        <div class="recommendation-style">Food</div>
+        <div class="recommendation-style">Movies</div>
+        <div class="recommendation-style">TV Series</div>
+        <div class="recommendation-style">Trailers</div>
+        <div class="recommendation-style">Chandrayaan</div>
+        <div class="recommendation-style">Russia</div>
+        <div class="recommendation-style">ISRO-NASA</div>
+        <div class="recommendation-style">Comedy Movies</div>
+
+    </div>
+    
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/9kfScGV6W1Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsmPUj07CdoRDxpmQGZW-Ilae3rQ">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQjbj2rPDctvy_bNpKKHgCkjdFxFIM5EGDBFju3jg=s88-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Challenging Google's Top Feeder College Students? Ft. UC Berkeley!
+                    </p>
+                    <p class="video-author">
+                        Singh in USA
+                    </p>
+                    <p class="video-stats">
+                        2.9M views &#183; 10 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/MJ_vmdIJIRw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfi4qFDDiJc3zXNhXb7Ekt3JF1sA">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaRJxXtxg7X9HtNAW3YriiLFyAlPsxNv9-wCv7nH=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Why is South India more Developed than North India? | Dhruv Rathee
+                    </p>
+                    <p class="video-author">
+                        Dhruv Rathee
+                    </p>
+                    <p class="video-stats">
+                        6.9M views &#183; 8 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/0fezfAoRsvg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAE3p3W1wnN8_SMfgglOAUfiFryKA">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/DFFsUC4U5g_ch0m0qvZqWrVNQ9Y4TrIBPMsRjGD25ctjPgh0SXIBdvukUCoD9RD76uuT2I0snA=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Chaos In The Kitchen Ep.11 | Banana Bread 🍌 | Sheena & TRID
+                    </p>
+                    <p class="video-author">
+                        Sheena Melwani
+                    </p>
+                    <p class="video-stats">
+                        2.73K views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/vN9kaRw6y7E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAL-lqxY-4q6N5GNJoMNI8Hr86J_A">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/bn9GHZKuqNUMvR29yO8_vgIT_hLZ00cP0AyGn3lq4L0aUuAGEIAri0KaQG7-0g_rixWLLXJBbOw=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Child Piano Prodigy Evan Le! | Little Big Shots
+                    </p>
+                    <p class="video-author">
+                        Little Big Shots UK
+                    </p>
+                    <p class="video-stats">
+                        4.6M views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/k8KQHpSbp9s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6l65em2pPBWXcU3oghQ6krAQDHw">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQRQp142J9-hjNhNFwPjJYEXehY-AQBGx8DU0LfHA=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The Best Dishes From Sashi Cheliah | MasterChef Australia | MasterChef World
+                    </p>
+                    <p class="video-author">
+                        MasterChef World
+                    </p>
+                    <p class="video-stats">
+                        4.1M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/bQk5t_dRYss/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn9rGzoygoJ3-_CRPS0rCfprnMPg">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/2fUptGcPzE5t7zeXpainu5bx0rluzYzcsHrG0bT53a_sN6ZGCUmT8T5Qk6Mo1Nph024jcAISL58=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The Filmmakers' Adda 2022 | Best Films Of The Year | Film Companion
+                    </p>
+                    <p class="video-author">
+                        Film Companion
+                    </p>
+                    <p class="video-stats">
+                        3.2M views &#183; 8 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/umIrvdHUDLw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQfLNLtZEXy18kQGDCkRmZ7bKpdQ">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/C851eSd5mtIWIqxBsmtM-sxSZDYqDwaO7l35sEtsdYd6K_dgy4Z41t9lqeib89ElSKVeoJsK0Q=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        I Travelled To Hyderabad Just To Eat This Biriyani
+                    </p>
+                    <p class="video-author">
+                        Daily Max
+                    </p>
+                    <p class="video-stats">
+                        3.9M views &#183; 10 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/8PLz3h4dFeo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDA0JevZ8Bm5ZlVmo1ekhlx5to90w">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTsTKSzWDlkO8bK3lbEcAEIw10_DtzlplbWh9F6ew=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        ഇന്ത്യക്ക് കിട്ടേണ്ട സ്ഥാനം Russia തട്ടിയെടുക്കുന്നു! Chandrayan vs Luna
+                    </p>
+                    <p class="video-author">
+                        Umer Abdussalam
+                    </p>
+                    <p class="video-stats">
+                        27k views &#183; 22 hours ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/5NgNicANyqM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5XV8X9XQgx5vU0auTGyopvdKcGQ">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Harvard CS50’s Artificial Intelligence with Python – Full University Course
+                    </p>
+                    <p class="video-author">
+                        freeCodeCamp.org
+                    </p>
+                    <p class="video-stats">
+                        248K views &#183; 3 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/-nxWSfj9mV4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvsJ-vBrxnQtlh0V9e8dbcg-T6Yg">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/ZgeNaE-oQToMqrfPDrFDbzq3V8jsWuACKCXEpKkKGa_Wk1rxgjQ7gwR3F17BQjzrlTEXGmMo=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        You Laugh You Lose | Tag Team Edition
+                    </p>
+                    <p class="video-author">
+                        JordIndian
+                    </p>
+                    <p class="video-stats">
+                        4.9M views &#183; 5 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/7Bp8wFo1mmw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB569FdclS9y16eMeMtdw0PSDOSlA">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/Gi8bBS9EYRWRwb-GxC62J6BvqhNGdG5sWSYYDpLylW30Jd81AOS7PqGaHCMfDPMXZR4Puw4xbXk=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Food Vocabulary In English with Friends "the Cheesecake" 😋
+                    </p>
+                    <p class="video-author">
+                        Learn English with series
+                    </p>
+                    <p class="video-stats">
+                        24M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/TN_vWXLu9YQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBguzVWl-vazFJREKWNigJbU4cxsQ">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="https://yt3.ggpht.com/y1lBojDolYvmHl33CjXNV9jOUKHJdgAELDI0PoGuY9l418gnzIW6FVhyqaDf_Mk3XDg1qxgLzjU=s68-c-k-c0x00ffffff-no-rj">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Giant Buffalo-Photoshop Manipulation Speed Art Tutorial
+                    </p>
+                    <p class="video-author">
+                        Learning Screen
+                    </p>
+                    <p class="video-stats">
+                        5.2M views &#183; 9 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="shorts-logo">
+        <img src="data:image/png;base64,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">
+        <div>SHORTS</div>
+    </div>
+    <div class="reels-section">
+        <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/0rI2JgvyPR0/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLARFsKA8Ps01k-P3wSpNKDdGDj2rA">
+            <div class="reels-title">Original Mummy Egypt</div>
+            <div class="reels-view">3.5M views</div>
+        </div>
+        <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/_mgeHLtq3XM/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCEwRT0x87NZ8g62_ti3GA6jEoDWg">
+            <div class="reels-title">New Porsche Panamera on Kerala Streets</div>
+            <div class="reels-view">248K views</div>
+        </div>
+        <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/OSxZEbe-ZkI/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB-XrzKrzczAIVdgnL7YuZ_-F1aDA">
+            <div class="reels-title">Sundar Pichai Visits Crunch Labs!</div>
+            <div class="reels-view">1.2M views</div>
+        </div>
+        <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/s66vxYSveuo/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCQxqCSp77cPoc7z92BBNf2vzXDAw">
+            <div class="reels-title">Most Hyped Drink in Kochi</div>
+            <div class="reels-view">7.5M views</div>
+        </div>
+            <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/NAxBZ9QOw98/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA5yAl3_yXfl9SbFkrpoASUje2brQ">
+            <div class="reels-title">തുർക്കി കടയിലെ ചിക്കൻ 🐔 #shorts #germanvlog</div>
+            <div class="reels-view">2.6M views</div>
+        </div>
+        <div class="reels-thumbnail">
+            <img class="thumbnail-picture" src="https://i.ytimg.com/vi/uQdG_fpnbx8/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDKT7YD4rsOvuWwoeGE2py51H51ZQ">
+            <div class="reels-title">SPG Commando ON-DUTY for PM India</div>
+            <div class="reels-view">315K views</div>
+        </div>
+        
+
+
+    </div>
+    
+    
+
+    
+</body>
+</html>

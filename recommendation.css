@@ -1,0 +1,36 @@
+.recommendation{
+    height: 40px;
+    position: fixed;
+    top: 55px;
+    left: 72px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    z-index: 100;
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-right: 30px;
+}
+
+.recommendation-style{
+    font-family: roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(238, 227, 227);
+    border-radius: 9px;
+    padding: 6px;
+    cursor: pointer;
+    
+
+
+}
+
+.recommendation-style:hover{
+    background-color: rgb(126, 119, 119);
+}
